@@ -552,10 +552,6 @@ nav{
         padding-bottom: 25px;
     }
 
-    .logo{
-        padding-left:25px;
-    }
-
     .enlaces-menu{
         flex-direction:column;
         align-items:center;
