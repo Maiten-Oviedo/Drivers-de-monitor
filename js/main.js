@@ -13,7 +13,6 @@ const home = document.getElementById("home");
 const cargarImagen = (entradas, observador) => {
     entradas.forEach((entrada) => {
         if (entrada.isIntersecting) {
-            console.log("pito")
             entrada.target.classList.add("visible");
         }
     });
