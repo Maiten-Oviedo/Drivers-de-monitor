@@ -9,6 +9,8 @@ const box4 = document.getElementById("box4");
 const box5 = document.getElementById("box5");
 const box6 = document.getElementById("box6");
 const home = document.getElementById("home");
+const esquema1 = document.getElementById("esquema1");
+const esquema2 = document.getElementById("esquema2");
 
 const cargarImagen = (entradas, observador) => {
     entradas.forEach((entrada) => {
@@ -33,6 +35,8 @@ observador.observe(box4);
 observador.observe(box5);
 observador.observe(box6);
 observador.observe(home);
+observador.observe(esquema1);
+observador.observe(esquema2);
 /*--------------------------MENU HAMBUEGUESA-----------------*/
 const ham = document.querySelector('.ham');
 const enlaces = document.querySelector('.enlaces-menu');
