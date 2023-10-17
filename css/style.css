@@ -412,6 +412,13 @@ nav{
     border-radius: 18px;
     width: 1200px;
     height: 251px;
+    transform: scale(.9) translateX(200px);
+    opacity: 0;
+    transition: .4s ease all;
+}
+#diagrama img.visible{
+    transform: scale(1) translateX(0);
+    opacity: 1;
 }
 
 #esquema2{
